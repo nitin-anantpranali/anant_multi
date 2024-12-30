@@ -18,12 +18,12 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
 				},
 				{
 					name: "anant_red_theme",
-					label: "Modern Red UI",
+					label: "Anant Red UI",
 					info: "The Red theme for ERPNext"
 				},
 				{
 					name: "anant_blue_theme",
-					label: "Modern Blue UI",
+					label: "Anant Blue UI",
 					info: "The Blue theme for ERPNext"
 				},
 				{

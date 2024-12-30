@@ -160,7 +160,7 @@ app_include_js = ["/assets/anant_multi/js/theme.js",]
 # ------------------------------
 #
 override_whitelisted_methods = {
-    "frappe.core.doctype.user.user.switch_theme": "modern_desk.overrides.switch_theme.switch_theme"
+    "frappe.core.doctype.user.user.switch_theme": "anant_multi.overrides.switch_theme.switch_theme"
 }
 #
 # each overriding function accepts a `data` argument;
