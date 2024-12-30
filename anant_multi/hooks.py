@@ -14,11 +14,11 @@ app_include_css =  ["/assets/anant_multi/css/theme.css","/assets/anant_multi/css
 app_include_js = ["/assets/anant_multi/js/theme.js",]
 
 # include js, css files in header of web template
-# web_include_css = "/assets/modern_desk/css/modern_desk.css"
-# web_include_js = "/assets/modern_desk/js/modern_desk.js"
+# web_include_css = "/assets/anant_multi/css/anant_multi.css"
+# web_include_js = "/assets/anant_multi/js/anant_multi.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "modern_desk/public/scss/website"
+# website_theme_scss = "anant_multi/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -36,7 +36,7 @@ app_include_js = ["/assets/anant_multi/js/theme.js",]
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "modern_desk/public/icons.svg"
+# app_include_icons = "anant_multi/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -60,43 +60,43 @@ app_include_js = ["/assets/anant_multi/js/theme.js",]
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "modern_desk.utils.jinja_methods",
-# 	"filters": "modern_desk.utils.jinja_filters"
+# 	"methods": "anant_multi.utils.jinja_methods",
+# 	"filters": "anant_multi.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "modern_desk.install.before_install"
-# after_install = "modern_desk.install.after_install"
+# before_install = "anant_multi.install.before_install"
+# after_install = "anant_multi.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "modern_desk.uninstall.before_uninstall"
-# after_uninstall = "modern_desk.uninstall.after_uninstall"
+# before_uninstall = "anant_multi.uninstall.before_uninstall"
+# after_uninstall = "anant_multi.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "modern_desk.utils.before_app_install"
-# after_app_install = "modern_desk.utils.after_app_install"
+# before_app_install = "anant_multi.utils.before_app_install"
+# after_app_install = "anant_multi.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "modern_desk.utils.before_app_uninstall"
-# after_app_uninstall = "modern_desk.utils.after_app_uninstall"
+# before_app_uninstall = "anant_multi.utils.before_app_uninstall"
+# after_app_uninstall = "anant_multi.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "modern_desk.notifications.get_notification_config"
+# notification_config = "anant_multi.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -135,26 +135,26 @@ app_include_js = ["/assets/anant_multi/js/theme.js",]
 
 # scheduler_events = {
 # 	"all": [
-# 		"modern_desk.tasks.all"
+# 		"anant_multi.tasks.all"
 # 	],
 # 	"daily": [
-# 		"modern_desk.tasks.daily"
+# 		"anant_multi.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"modern_desk.tasks.hourly"
+# 		"anant_multi.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"modern_desk.tasks.weekly"
+# 		"anant_multi.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"modern_desk.tasks.monthly"
+# 		"anant_multi.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "modern_desk.install.before_tests"
+# before_tests = "anant_multi.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
@@ -167,7 +167,7 @@ override_whitelisted_methods = {
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "modern_desk.task.get_dashboard_data"
+# 	"Task": "anant_multi.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -181,13 +181,13 @@ override_whitelisted_methods = {
 
 # Request Events
 # ----------------
-# before_request = ["modern_desk.utils.before_request"]
-# after_request = ["modern_desk.utils.after_request"]
+# before_request = ["anant_multi.utils.before_request"]
+# after_request = ["anant_multi.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["modern_desk.utils.before_job"]
-# after_job = ["modern_desk.utils.after_job"]
+# before_job = ["anant_multi.utils.before_job"]
+# after_job = ["anant_multi.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -217,7 +217,7 @@ override_whitelisted_methods = {
 # --------------------------------
 
 # auth_hooks = [
-# 	"modern_desk.auth.validate"
+# 	"anant_multi.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
