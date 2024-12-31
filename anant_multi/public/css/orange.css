@@ -1,9 +1,9 @@
 /* Works on Chrome, Edge, and Safari */
 /* Taken from https://github.com/tahir-zaqout/sundae_theme/tree/master/sundae_theme/public/css */
 :root{
-    --main-color: #691551;
-    --second-color: #af3d8f;
-    --third-color: #a5488a;
+    --main-color: #974426;
+    --second-color: #ba753f;
+    --third-color: #a08064;
     --widget-bg: #e8eafcad ;
 }
 [data-theme=anant_orange_theme]{
